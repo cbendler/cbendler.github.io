@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Questrial);
+@import url(https://fonts.googleapis.com/css?family=Lora:400,400italic);
+
+body {
+
+	text-align: center;
+}
+
+header {
+
+}
+
+
+h1 {
+
+
+	font-family: 'Questrial', sans-serif;
+	font-size: 4em;
+}
+
+p {
+
+	font-family: 'Lora', sans-serif;
+	font-size: 1.5em;
+}
+
+ul {
+	
+	list-style: none;
+	font-size: 2em;
+
+}
+
+li {
+
+	font-family: 'Questrial', sans-serif;
+
+}
+
+img {
+
+}
+
+footer{
+
+	font-family: 'Questrial', sans-serif;
+	font-size: 	1.5em;
+
+}
+
+#slogan {
+
+	font-family: 'Lora', serif;
+
+}
+
+#contact {
+
+	text-decoration: none;
+}
