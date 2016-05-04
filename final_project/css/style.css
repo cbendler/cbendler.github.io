@@ -16,25 +16,6 @@ body {
 	text-align: center;
 }
 
-header {
-
-	background-color: #ffed74;
-	position: relative;
-	color: #fff;
-
-}
-
-nav {
-	background-color: #e8c66a;
-}
-
-
-h1 {
-
-	background-color: #ffed74;
-	font-family: 'Questrial', sans-serif;
-	font-size: 4em;
-}
 
 p {
 
@@ -51,12 +32,12 @@ ul {
 
 figure {
 
-	background-color: #ffc675;
+	
 }
 
 div{
 
-	background-color: #ffe2b8;
+	
 }
 
 li {
@@ -74,10 +55,47 @@ img {
 
 footer{
 
-	background-color: #ff957e;
+	color: #0AA5B2;
 	font-family: 'Questrial', sans-serif;
 	font-size: 	1.5em;
 
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: #fff;
+
+}
+
+a:visited {
+	color: #fff;
+
+}
+
+a:hover {
+	color: #0AA5B2;
+}
+
+#site-header {
+
+	position: relative;
+	color: #fff;
+	text-decoration: none;
+
+}
+
+#header-nav {
+	
+}
+
+
+#logo-title {
+
+	font-family: 'Questrial', sans-serif;
+	font-size: 4em;
 }
 
 #slogan {
@@ -98,8 +116,12 @@ footer{
 	height: 100%;
 	top: 0;
 	left: 0;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.0);
 
+}
+
+.quote {
+	padding: 60px;
 }
 
 .figures {
@@ -130,15 +152,17 @@ footer{
 .figure-100 {
 	width: 100%;
 	float: left;
-	height: 500px;
-	background-color: orange;
+	height: 550px;
 
 }
 
 .figure-50 {
 	width: 50%;
 	float: left;
-	height: 250px;
-	background-color: black;
+	height: 275px;
 
+}
+
+.figure-short {
+	height: 275px;
 }
