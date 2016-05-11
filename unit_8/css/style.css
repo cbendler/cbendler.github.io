@@ -31,24 +31,14 @@ ul {
 }
 
 figure {
-	position: relative;
+
+	
 }
 
-figure img {
-	display: block;
+div{
+
+	
 }
-
-
-figcaption {
-	background: rgba(0, 0, 0, 0.5);
-    color: #FFF;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-
-}
-
 
 li {
 
@@ -69,6 +59,7 @@ footer{
 	font-family: 'Questrial', sans-serif;
 	font-size: 	1.5em;
 	padding: 20px;
+
 
 }
 
@@ -136,7 +127,6 @@ a:hover {
 }
 
 .figures {
-	position: relative;
 	width: 100%;
 	/*max-width: 900px;
 	margin: 0 auto;*/
