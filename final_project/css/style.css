@@ -38,6 +38,10 @@ figure img {
 	display: block;
 }
 
+figure:hover {
+	opacity: 0.4;
+}
+
 
 figcaption {
 	background: rgba(0, 0, 0, 0.5);
@@ -129,6 +133,10 @@ a:hover {
 	left: 0;
 	background-color: rgba(0, 0, 0, 0.0);
 
+}
+
+.overlay:figure:hover {
+	background-color: rgba(10, 165, 178, 0.5);
 }
 
 .quote {
