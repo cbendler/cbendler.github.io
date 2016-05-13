@@ -20,7 +20,7 @@ body {
 p {
 
 	font-family: 'Lora', sans-serif;
-	font-size: 1.5em;
+	font-size: 16px;
 }
 
 ul {
@@ -31,14 +31,36 @@ ul {
 }
 
 figure {
-
-	
+	position: relative;
 }
 
-div{
-
-	
+figure img {
+	display: block;
 }
+
+
+figcaption {
+	background: rgba(10, 165, 178, 0.9);
+    color: #FFF;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+
+}
+
+figure:hover figcaption {
+	opacity: 1;
+
+}
+
 
 li {
 
@@ -59,7 +81,6 @@ footer{
 	font-family: 'Questrial', sans-serif;
 	font-size: 	1.5em;
 	padding: 20px;
-
 
 }
 
@@ -90,6 +111,9 @@ a:hover {
 }
 
 #header-nav {
+
+	font-family: 'Questrial', sans-serif;
+	font-size: 1.5em;
 	
 }
 
@@ -98,11 +122,17 @@ a:hover {
 
 	font-family: 'Questrial', sans-serif;
 	font-size: 4em;
+	padding: 20px 15%;
+	border: 5px solid #fff;
+	display: inline-block;
+
 }
 
 #slogan {
 
 	font-family: 'Lora', serif;
+	font-size: 1.5em;
+	padding: 20px 15%;
 
 }
 
@@ -115,18 +145,43 @@ a:hover {
 
 	position: absolute;
 	width: 100%;
-	height: 100%;
-	top: 0;
+	top: 50%;
+	transform: translateY(-50%);
 	left: 0;
 	background-color: rgba(0, 0, 0, 0.0);
 
+}
+
+#first-caption{
+
+	font-family: 'Questrial', sans-serif;
+	line-height: 1.5em;
+	font-size: 1em;
+}
+
+#second-caption{
+
+	font-family: 'Lora', serif;
+	font-size: 1em;
+}
+
+.overlay-text {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 .quote {
 	padding: 60px;
 }
 
+.quote-text {
+	font-family: 'Lora', sans-serif;
+	font-size: 1.5em;
+}
+
 .figures {
+	position: relative;
 	width: 100%;
 	/*max-width: 900px;
 	margin: 0 auto;*/
@@ -158,7 +213,8 @@ a:hover {
 	display: block;
 	width: 100%;
 	float: left;
-	height: 550px;
+	height: 0;
+	padding-bottom: 100%;
 	overflow: hidden;
 	background-color: red;
 
@@ -169,7 +225,8 @@ a:hover {
 	display: block;
 	width: 50%;
 	float: left;
-	height: 275px;
+	height: 0;
+	padding-bottom: 50%;
 	overflow: hidden;
 	background-color: orange;
 
@@ -184,6 +241,7 @@ a:hover {
 
 .figure-100 figcaption,
 .figure-50 figcaption{
+
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -191,5 +249,35 @@ a:hover {
 }
 
 .figure-short {
-	height: 275px;
+	height: 0;
+	padding-bottom: 50%;
+}
+
+@media screen and (max-width: 768px){
+.figure-100,.figure-50,.figure-short{
+	width: 100%;
+	padding-bottom: 0;
+	height: auto;
+	float: none;
+	clear: both;
+}
+
+.figure-column {
+	width: 100%;
+	float: none;
+}
+
+#logo-title {
+
+	font-family: 'Questrial', sans-serif;
+	font-size: 2.5em;
+}
+
+.slogan-hide {
+
+	text-indent: 100%;
+  	white-space: nowrap;
+  	overflow: hidden;
+
+}
 }
