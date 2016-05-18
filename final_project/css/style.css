@@ -1,5 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Questrial);
-@import url(https://fonts.googleapis.com/css?family=Lora:400,400italic);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,200);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab:400,300,100);
 
 *,
 *:before,
@@ -13,13 +13,15 @@
 
 body {
 
+	background-color: #e7e7e7;
 	text-align: center;
 }
 
 
 p {
 
-	font-family: 'Lora', sans-serif;
+	font-family: 'Josefin+Slab', sans-serif;
+	font-weight: 100;
 	font-size: 16px;
 }
 
@@ -64,7 +66,8 @@ figure:hover figcaption {
 
 li {
 
-	font-family: 'Questrial', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
 
 }
 
@@ -77,10 +80,14 @@ img {
 
 footer{
 
-	color: #0AA5B2;
-	font-family: 'Questrial', sans-serif;
+	height: 400px;
+	width: 100%;
+	background-color: #333333;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
 	font-size: 	1.5em;
-	padding: 20px;
+	padding: 70px 60px 20px 200px;
 
 }
 
@@ -102,23 +109,55 @@ a:hover {
 	color: #0AA5B2;
 }
 
+#hero-image {
+
+}
+
 #site-header {
 
+	height: 550px;
+	width: 100%;
 	position: relative;
 	color: #fff;
 	text-decoration: none;
 
 }
 
+#details-header {
+
+	height: 550px;
+	width: 100%;
+	position: relative;
+	color: #fff;
+	background-color: #0AA5B2;
+	text-decoration: none;
+
+}
+
 #header-nav {
+
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 1.5em;
 	
 }
 
 
 #logo-title {
 
-	width: 30%;
-	font-family: 'Questrial', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 4em;
+	padding: 20px 15%;
+	border: 5px solid #fff;
+	display: inline-block;
+
+}
+
+#details-title {
+
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
 	font-size: 4em;
 	padding: 20px 15%;
 	border: 5px solid #fff;
@@ -128,7 +167,8 @@ a:hover {
 
 #slogan {
 
-	font-family: 'Lora', serif;
+	font-family: 'Josefin+Slab', serif;
+	font-weight: 100;
 	font-size: 1.5em;
 	padding: 20px 15%;
 
@@ -136,30 +176,107 @@ a:hover {
 
 #contact {
 
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+	font-size: 2.5em;
+	text-align: left;
 	text-decoration: none;
+
+}
+
+#footer-quote {
+
+	font-family: 'Josefin+Slab', serif;
+	font-weight: 100;
+	font-size: 1em;
+	color: #c2c2c2;
+	text-align: left;
+	padding-top: 20px;
+	padding-left: 5px;
+}
+
+#location-phone {
+
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+	font-size: 1em;
+	color: #c2c2c2;
+	text-align: left;
+	padding-top: 60px;
+	padding-left: 20px;
+
+}
+
+#title {
+
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+	font-size: 3em;
+	color: #333333;
+	text-align: left;
+	padding-top: 60px;
+	padding-left: 5px;
+}
+
+#date {
+
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 2em;
+	color: #333333;
+	text-align: left;
+	padding-top: 60px;
+	padding-left: 5px;
+}
+
+#message {
+
+	font-family: 'Josefin+Slab', serif;
+	font-weight: 100;
+	font-size: 1em;
+	color: #333333;
+	text-align: left;
+	padding-top: 60px;
+	padding-left: 5px;
 }
 
 #hero-text {
 
 	position: absolute;
 	width: 100%;
+	height: 100%;
 	top: 50%;
 	transform: translateY(-50%);
+	right: 0;
 	left: 0;
-	background-color: rgba(0, 0, 0, 0.0);
+	background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+#details-text {
+
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 0;
+	left: 0;
 
 }
 
 #first-caption{
 
-	font-family: 'Questrial', sans-serif;
-	line-height: 1.5em;
-	font-size: 1em;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 2em;
+	color: #333333;
 }
 
 #second-caption{
 
-	font-family: 'Lora', serif;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
 	font-size: 1em;
 }
 
@@ -174,15 +291,15 @@ a:hover {
 }
 
 .quote-text {
-	font-family: 'Lora', sans-serif;
+	font-family: 'Josefin+Slab', serif;
+	font-weight: 100;
 	font-size: 1.5em;
+	color: #333333;
 }
 
 .figures {
 	position: relative;
 	width: 100%;
-	/*max-width: 900px;
-	margin: 0 auto;*/
 
 }
 
@@ -214,7 +331,6 @@ a:hover {
 	height: 0;
 	padding-bottom: 100%;
 	overflow: hidden;
-	background-color: red;
 
 }
 
@@ -226,8 +342,13 @@ a:hover {
 	height: 0;
 	padding-bottom: 50%;
 	overflow: hidden;
-	background-color: orange;
 
+}
+
+.figure-thumb {
+	width: 200px;
+	height: 200px;
+	display: inline-block;
 }
 
 .figure-100 img, 
@@ -251,6 +372,13 @@ a:hover {
 	padding-bottom: 50%;
 }
 
+@media screen and (max-width: 930){
+	#contact, #footer-quote, #location-phone{
+		text-align: center;
+	}
+
+}
+
 @media screen and (max-width: 768px){
 .figure-100,.figure-50,.figure-short{
 	width: 100%;
@@ -267,14 +395,15 @@ a:hover {
 
 #logo-title {
 
-	font-family: 'Questrial', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 2.5em;
 }
 
-#slogan {
+.slogan-hide {
 
-	font-family: 'Lora', serif;
-	font-size: 1em;
+	text-indent: 100%;
+  	white-space: nowrap;
+  	overflow: hidden;
 
 }
 }
