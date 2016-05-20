@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>candid-kids</title>
+		<title>candid-pets</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-
+		<link rel="stylesheet" type="text/css" href="jquery.bxslider.css">
 	</head>
 
 	<body>
@@ -15,7 +15,7 @@
 
 			<div id="hero-center">
 
-				<h1 id="logo-title"><a href="index.html">kids</a></h1>
+				<h1 id="logo-title"><a href="index.html">pets</a></h1>
 
 				<p id="slogan" id="slogan-hide">captured life moments | photos by christina bendler</p>
 
@@ -36,7 +36,13 @@
 
 			<figure class="figure-100">
 
-				<img src="images/christmas_brothers_512x550.jpg">
+				<ul class="bxslider">
+
+  					<li><img src="/images/in_the_ocean_200x200.jpg" /></li>
+ 					<li><img src="/images/gingerbread_brother_200x200.jpg" /></li>
+  					<li><img src="/images/race_brother_200x200.jpg" /></li>
+
+				</ul>
 
 			</figure>
 
@@ -56,11 +62,11 @@
 		
 		<div>
 			
-			<figure class="figure-thumb">
+			<figure id="bx-pager" class="figure-thumb">
 				
-			<img src="images/in_the_ocean_200x200.jpg">
-			<img src="images/gingerbread_brother_200x200.jpg">
-			<img src="images/race_brother_200x200.jpg">
+			<a data-slide-index="0" href=""><img src="images/in_the_ocean_200x200.jpg" /></a>
+			<a data-slide-index="1" href=""><img src="images/gingerbread_brother_200x200.jpg" /></a>
+			<a data-slide-index="2" href=""><img src="images/race_brother_200x200.jpg" /></a>
 
 			</figure>
 

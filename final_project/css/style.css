@@ -80,15 +80,22 @@ img {
 
 footer{
 
-	height: 400px;
+	height: 275px;
 	width: 100%;
 	background-color: #333333;
 	color: #fff;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 200;
-	font-size: 	1.5em;
-	padding: 70px 60px 20px 200px;
+	font-size: 	1em;
+	padding: 40px;
+	text-align: center;
 
+}
+
+#footer-text {
+	width: 100%
+	max-width: 640px;
+	margin: 0 auto;
 }
 
 a {
@@ -96,12 +103,12 @@ a {
 }
 
 a:link {
-	color: #0AA5B2;
+	color: #fff;
 
 }
 
 a:visited {
-	color: #0AA5B2;
+	color: #fff;
 
 }
 
@@ -148,7 +155,7 @@ a:hover {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
 	font-size: 4em;
-	padding: 20px 15%;
+	padding: 20px 5%;
 	border: 5px solid #fff;
 	display: inline-block;
 
@@ -159,7 +166,7 @@ a:hover {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
 	font-size: 4em;
-	padding: 20px 15%;
+	padding: 20px 5%;
 	border: 5px solid #fff;
 	display: inline-block;
 
@@ -179,7 +186,7 @@ a:hover {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 200;
 	font-size: 2.5em;
-	text-align: left;
+	text-align: center;
 	text-decoration: none;
 
 }
@@ -190,7 +197,7 @@ a:hover {
 	font-weight: 100;
 	font-size: 1em;
 	color: #c2c2c2;
-	text-align: left;
+	text-align: center;
 	padding-top: 20px;
 	padding-left: 5px;
 }
@@ -201,12 +208,12 @@ a:hover {
 	font-weight: 200;
 	font-size: 1em;
 	color: #c2c2c2;
-	text-align: left;
-	padding-top: 60px;
+	text-align: center;
+	padding-top: 30px;
 
 }
 
-#title {
+/*#title {
 
 	font-family: 'Raleway', sans-serif;
 	font-weight: 200;
@@ -224,7 +231,7 @@ a:hover {
 	font-size: 2em;
 	color: #333333;
 	text-align: left;
-	padding-top: 60px;
+	padding-top: 30px;
 	padding-left: 5px;
 }
 
@@ -235,20 +242,27 @@ a:hover {
 	font-size: 1em;
 	color: #333333;
 	text-align: left;
-	padding-top: 60px;
+	padding-top: 30px;
 	padding-left: 5px;
-}
+}*/
 
 #hero-text {
 
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	top: 50%;
-	transform: translateY(-50%);
 	right: 0;
 	left: 0;
 	background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+#hero-center {
+
+	position: relative;
+	width: 100%;
+	top: 50%;
+	transform: translateY(-50%);
 
 }
 
@@ -256,7 +270,6 @@ a:hover {
 
 	position: absolute;
 	width: 100%;
-	height: 100%;
 	top: 50%;
 	transform: translateY(-50%);
 	right: 0;
@@ -371,9 +384,25 @@ a:hover {
 	padding-bottom: 50%;
 }
 
-@media screen and (max-width: 930){
-	#contact, #footer-quote, #location-phone{
+.figure-description {
+
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+	font-size: 3em;
+	color: #333333;
+	text-align: right;
+}
+
+@media screen and (max-width: 930px){
+	#footer-quote, #location-phone{
 		text-align: center;
+		font-size: 100%;
+
+	}
+
+	#contact {
+		text-align: center;
+		font-size: 150%
 	}
 
 }
