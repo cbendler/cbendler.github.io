@@ -266,6 +266,15 @@ a:hover {
 
 }
 
+#details-center {
+
+	position: relative;
+	width: 100%;
+	top: 50%;
+	transform: translateY(-50%);
+
+}
+
 #details-text {
 
 	position: absolute;
@@ -328,6 +337,13 @@ a:hover {
 
 }
 
+.figure-column-detail {
+	max-width: 750px;
+	margin: auto;
+	padding-top: 50px;
+
+}
+
 .figure-column:after {
 	content: "";
 	display: block;
@@ -346,6 +362,7 @@ a:hover {
 
 }
 
+
 .figure-50 {
 	position: relative;
 	display: block;
@@ -361,6 +378,7 @@ a:hover {
 	width: 200px;
 	height: 100%;
 	display: inline-block;
+	padding: 0 10px 50px 0;
 }
 
 .figure-100 img, 
@@ -386,6 +404,10 @@ a:hover {
 
 .figure-description {
 
+ 	position: absolute;
+ 	top: 50%;
+ 	left: 50%;	
+ 	transform: translate(-50%, -50%);
 	font-family: 'Raleway', sans-serif;
 	font-weight: 200;
 	font-size: 3em;
